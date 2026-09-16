@@ -1,0 +1,6 @@
+basic compilation
+go run main.go
+basic building
+go build main.go
+optimised building
+go build -ldflags "-s -w" main.go
